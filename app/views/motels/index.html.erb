@@ -1,0 +1,96 @@
+<html>
+	<head>
+	
+	<title>motel website</title>
+		<meta charset="utf-8" />
+	</head>
+	
+	<body>
+		<div id="big_wrapper">
+				<header id = "top_header">
+					<h1>
+					<%= image_tag('logo.png') %>
+					welcome to the new event planner</h1>
+
+				</header>
+
+					<nav id="top_menu" >
+						<ul>
+							<li>Sign in</li>
+							<li>Log in </li>
+							<li>About</li>
+							<li>Contact</li>
+							<li>Help</li>
+
+						</ul>
+					</nav>
+						<div id="new_div">
+					<section id="main_section">
+						<article>
+							<header>
+							<hgroup>
+								<h1> title of article </h1>
+								<h2>sub for it</h2>
+								</hgroup>
+							</header>
+							wellcome
+							<section id="skin">
+							<video id="mymovie" width="300" hieght="150">
+								<source src ="videos/redcup.mp4" autoplay loop controls></video>
+								<nav>
+									<div id="buttons">
+										<button type="button" id="playButton"> play</button>
+									</div>
+									<div id="defaultbar"> <div id="progressbar"></div style="clear:both"></div>
+									</nav>
+									</section>
+							<p>this is video blow your mind</p>
+							<footer>
+								<p>writen by saints team</p>
+							</footer>
+						</article>
+						
+							<header>
+							<hgroup>
+								<h1> title of article 2 </h1>
+								<h2>sub for it</h2>
+								</hgroup>
+							</header>
+							<video src ="videos/paco.mp4" autoplay loop controls></video>
+							<p id="text">this is going to blow your mind</p>
+							<footer>
+								<p id="decon">writen by saints team</p>
+								
+							</footer>
+						</article>
+				
+					</section>
+				<div id="box1"> 
+				   <table>
+				   <%= form_for :motels, url: 'new' do |f| %>
+						<tr>
+							<td><%= f.text_field :password %></td>
+	               			<td><%= f.submit :code%></td>
+	               		<% end %>
+						</tr>
+						<%= image_tag('din.jpg') %>
+					</table>
+				</div>
+						
+						<article>
+				<aside id="side_news">
+					<h4> News </h4>
+					life event been brought to you
+				</aside>		
+						<aside id="box2">
+					<h4> News </h4>
+					event been brought to you
+				</aside>		
+				<%= image_tag('din.jpg') %>
+							</div>
+				<footer id="the_footer">
+					&copy dynamite 2015
+				</footer>
+		</div>
+	</body>
+</html>

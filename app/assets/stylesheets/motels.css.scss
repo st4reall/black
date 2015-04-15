@@ -1,0 +1,199 @@
+// Place all the styles related to the motels controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px tahoma;
+}
+h2{
+	font: bold 15px tahoma;
+}
+ header,section, footer, aside, article, nav, hgroup {
+ 	display: block;
+ }
+ body{
+ 	width: 100%;
+ 	display:-webkit-box;
+ 	-webkit-box-pack: center;
+ 	/*text-align: center;*/
+ 	background:#8EE5EE; 
+ }
+ #big_wrapper{
+ 	border: 1px solid black;
+ 	max-width:1000px;
+ 	margin: 20px auto;
+ 	display:-webkit-box;
+ 	-webkit-box-orient: vertical;
+ 	-webkit-box-flex: 1;
+
+ 	/*text-align: left;*/
+ }
+#top_header{
+	background-color: yellow;
+	border: 3px solid black;
+	padding: 10px;
+
+}
+#top_menu{
+	border: red;
+	background-color:blue;
+	color: white;
+}
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px tahoma;
+}
+#new_div{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	background: -webkit-radial-gradient(center,circle,red 0%, #8EE5EE 50%);
+	
+}
+
+#main_section{
+	border: 1px solid blue;
+	-webkit-box-flex: 1;
+	/*float: left;*/
+	width: auto;
+	margin: 3px;
+	padding: 5px;
+	-webkit-border-radius:40PX;
+	-webkit-box-shadow:rgb(110,110,110) 18px 18px 18px;
+	/*it should nt go over*/
+}
+#mymovie{
+	border-radius: 10px;
+	border: 4px solid blue;
+	padding: 5px;
+	margin: 10px auto;
+
+}
+nav{
+	margin: 5px 0px;
+}
+#buttons{
+	float: left;
+	height: 22px;
+	width: 70px
+}
+#defaultbar{
+	position: relative;
+	width: 200px;
+	height: 10px;
+	padding: 4px;
+	border: 2px solid black;
+	background: green;
+
+}
+#progressbar{
+	position: absolute;
+	width: 0px;
+	height: 8px;
+	background: blue;
+
+}
+
+#box1{
+	border: 1px solid red;
+	background: black;
+	padding: 20px;
+	margin: 3px;
+	width: auto;
+	height: auto;
+	-webkit-border-radius:40PX;
+	-webkit-box-shadow:rgb(110,110,110) 18px 18px 18px inset;
+}
+#box1 li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px tahoma;
+}
+#box2{
+	border: 1px solid red;
+	background: blue;
+	padding: 20px;
+	margin: 3px;
+	width: auto;
+	height: auto;
+	-webkit-border-radius:40PX;
+	opacity: 0.6;
+	-webkit-transition:-webkit-transform 2s, opacity 2s, width 2s, height 2s, background 2s;
+
+}
+#box2:hover{
+	-webkit-transform:rotate(360deg);
+	opacity: 1px;
+	background: #1ec7e6;
+	width: 150px;
+	height: 90px;
+}
+#box2 li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px tahoma;
+}
+#box3{
+	border: 1px solid red;
+	background: green;
+	padding: 20px;
+	margin: 10px;
+}
+
+#box4{
+	border: 1px solid red;
+	background: pink;
+	padding: 20px;
+	margin: 10px;
+}
+#side_news{
+	border: 1px solid black;
+	/*float: left;*/
+	width: 220px;
+	margin: 3px 0px;
+	padding: 30px;
+	background: #66CCCC;
+	-webkit-border-radius:40PX;
+	-webkit-transition:-webkit-transform 6s;
+	background: -webkit-linear-gradient(top,black,white)
+}
+#side_news:hover{
+	-webkit-transform: rotate(45deg);
+}
+#text{
+	font:bold 30px century Gothic;
+	-webkit-box-shadow:rgba(110,110,110,.6) 18px 18px 18px;
+}
+#decon{
+	font:bold 10px century Gothic;
+	-webkit-box-shadow:rgb(110,110,110) 18px 18px 18px;
+
+}
+#the_footer{
+	/*clear: both;*/
+	background: blue;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+	-webkit-border-radius:40PX;
+}
+	article{
+	background-color: #fffbcc;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 15px;
+	-webkit-border-radius:40PX;
+	background: -webkit-linear-gradient(45deg,black,white)
+}
+article footer{
+	text-align: right;
+	-webkit-border-radius:40PX;
+	-webkit-box-shadow:rgb(110,110,110) 18px 18px 18px inset;
+
+}
